@@ -46,6 +46,13 @@ export default function Example() {
 }
 ```
 
+## Styling
+
+SVGs can be styled using CSS.
+- Icons already set `width="1em" height="1em"` allows changing size via `font-size`.
+- Icons icons already set `fill=currentColor` allows changing color via `color`.
+
+
 ## License
 
 This project is MIT licensed.
