@@ -23,11 +23,11 @@ After installing the package you can import React Material Icons as React compon
 
 ```jsx
 import {
-  LocationCityFilled,
-  LocationCityOutlined,
-  LocationCityRound,
-  LocationCitySharp,
-  LocationCityTwoTone,
+  icLocationCityFilled,
+  icLocationCityOutlined,
+  icLocationCityRound,
+  icLocationCitySharp,
+  icLocationCityTwoTone,
 } from 'react-icons-material-design';
 ```
 
@@ -35,12 +35,12 @@ import {
 
 ```jsx
 import React from 'react';
-import { LocationCityFilled } from 'react-icons-material-design';
+import { icLocationCityFilled } from 'react-icons-material-design';
 
 export default function Example() {
   return (
     <div>
-      <LocationCityFilled />
+      <icLocationCityFilled />
     </div>
   );
 }
