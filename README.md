@@ -3,11 +3,17 @@
 [![npm version](https://img.shields.io/npm/v/react-icons-material-design.svg)](https://www.npmjs.com/package/react-icons-material-design)
 [![npm downloads](https://img.shields.io/npm/dm/react-icons-material-design.svg)](https://www.npmjs.com/package/react-icons-material-design)
 
-A library of React components for [Material Design Icons](https://github.com/google/material-design-icons) are created by Google.
+A library of React components for Material Design Icons created by Google. This library is a fork of [tabler-icons-react](https://github.com/konradkalemba/tabler-icons-react) with some modifications. Special thanks to @konradkalemba for his work.
 
-Note: I forked from [tabler-icons-react](https://github.com/konradkalemba/tabler-icons-react) and modify a little to make this library. Thanks @konradkalemba about his work.
+## Features
 
-## Usage
+- Zero dependencies.
+- TypeScript friendly.
+- 10,000+ icons with 4 variants: Filled, Outlined, Round, Sharp, TwoTone. You can explore and choose your icons at [Material Design Icons](https://marella.me/material-design-icons/demo/svg).
+- SVGs optimized with SVGO.
+- Easy to import using named exports with tree shaking.
+
+## Installation
 
 The package is available via npm and can be installed using `npm` or `yarn`:
 
@@ -19,7 +25,9 @@ npm install react-icons-material-design
 yarn add react-icons-material-design
 ```
 
-After installing the package you can import React Material Icons as React components as follows:
+## Usage
+
+After installing the package, you can import React Material Icons as React components:
 
 ```jsx
 import {
@@ -31,9 +39,10 @@ import {
 } from 'react-icons-material-design';
 ```
 
-## Example
+## Examples
 
-1.
+1. Basic usage:
+
 ```jsx
 import React from 'react';
 import { icLocationCityFilled } from 'react-icons-material-design';
@@ -46,7 +55,8 @@ export default function Example() {
   );
 }
 ```
-2.
+
+2. Usage with a custom component:
 
 ```jsx
 import React from 'react';
@@ -63,11 +73,10 @@ export default function Example() {
 
 ## Styling
 
-SVGs can be styled using CSS.
-- Icons already set `width="1em" height="1em"` allows changing size via `font-size`.
-- Icons icons already set `fill=currentColor` allows changing color via `color`.
-
+SVGs can be styled using CSS:
+- Icons are already set with `width="1em" height="1em"`, allowing you to change the size via `font-size`.
+- Icons are already set with `fill=currentColor` allowing you to change the color via `color`.
 
 ## License
 
-This project is MIT licensed.
+This project is licensed under the MIT License.
