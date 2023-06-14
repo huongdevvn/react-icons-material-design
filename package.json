@@ -1,6 +1,6 @@
 {
   "name": "react-icons-material-design",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Material Design Icons for React",
   "main": "./dist/cjs/index.js",
   "module": "./dist/index.js",
