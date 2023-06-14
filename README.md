@@ -33,6 +33,7 @@ import {
 
 ## Example
 
+1.
 ```jsx
 import React from 'react';
 import { icLocationCityFilled } from 'react-icons-material-design';
@@ -41,6 +42,20 @@ export default function Example() {
   return (
     <div>
       <icLocationCityFilled />
+    </div>
+  );
+}
+```
+2.
+
+```jsx
+import React from 'react';
+import { icLocationCityFilled } from 'react-icons-material-design';
+
+export default function Example() {
+  return (
+    <div>
+      <YourIconComponent icon={icLocationCityFilled} />
     </div>
   );
 }
