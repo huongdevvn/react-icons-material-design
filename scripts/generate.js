@@ -7,6 +7,7 @@ const SOURCE_SVG_PATH = path.resolve(
   '../svg'
 );
 const DESTINATION_ICONS_PATH = path.resolve(__dirname, '../src/icons');
+const PREFIX_COMPONENT_NAME = 'ic';
 
 function pascalCase(string) {
   // Remove leading and trailing whitespace
@@ -23,10 +24,6 @@ function pascalCase(string) {
     return word.charAt(0).toUpperCase() + word.slice(1);
   }).join('');
 
-  // Handle cases where the string starts with a number
-  if (pascalCase && !isNaN(pascalCase.charAt(0))) {
-    pascalCase = '_' + pascalCase;
-  }
 
   return pascalCase;
 }
@@ -89,10 +86,7 @@ function findIcons(directory) {
 }
 
 function createComponentName(originalName, variant) {
-  const name = originalName + '_' + variant;
-  return (
-    pascalCase(name)
-  );
+  return PREFIX_COMPONENT_NAME + pascalCase(`${originalName}_${variant}`)
 }
 
 async function generateNewComponents() {
@@ -115,7 +109,7 @@ async function generateNewComponents() {
     console.log('Processing to component: ', componentName)
 
     exports.push(
-      `export { default as ${componentName} } from './icons/${originalName}_${variant}.js';`
+      `export { default as ${componentName} } from './icons/${PREFIX_COMPONENT_NAME}_${originalName}_${variant}.js';`
     );
 
     const [, svgContent] = /<svg[^>]*>([\s\S]*?)<\/svg>/.exec(svgFileContents);
@@ -125,7 +119,7 @@ async function generateNewComponents() {
       .replace(/%%SVG_CONTENT%%/g, svgContent)
 
     fs.writeFileSync(
-      path.resolve(DESTINATION_ICONS_PATH, `${originalName}_${variant}.js`),
+      path.resolve(DESTINATION_ICONS_PATH, `${PREFIX_COMPONENT_NAME}_${originalName}_${variant}.js`),
       prettier.format(source, { parser: 'babel', ...prettierOptions })
     );
   }
