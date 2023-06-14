@@ -4,6 +4,7 @@
 [![npm downloads](https://img.shields.io/npm/dm/react-icons-material-design.svg)](https://www.npmjs.com/package/react-icons-material-design)
 
 A library of React components for [Material Design Icons](https://github.com/google/material-design-icons) are created by Google.
+
 Note: I forked from [tabler-icons-react](https://github.com/konradkalemba/tabler-icons-react) and modify a little to make this library. Thanks @konradkalemba about his work.
 
 ## Usage
