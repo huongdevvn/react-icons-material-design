@@ -1,0 +1,6 @@
+/// <reference types="react" />
+import { FC, SVGAttributes } from 'react';
+
+interface SVGIconProps extends SVGAttributes<SVGElement> {}
+
+type SVGIcon = FC<SVGIconProps>;
