@@ -11,7 +11,8 @@ A library of React components for Material Design Icons created by Google. This 
 - TypeScript friendly.
 - 10,000+ icons with 4 variants: Filled, Outlined, Round, Sharp, TwoTone. You can explore and choose your icons at [Material Design Icons](https://marella.me/material-design-icons/demo/svg).
 - SVGs optimized with SVGO.
-- Easy to import using named exports with tree shaking.
+- Easy to import using named exports.
+- Tree-shakeable verified by [agado](https://github.com/Rich-Harris/agadoo).
 
 ## Installation
 
@@ -74,7 +75,8 @@ export default function Example() {
 ## Styling
 
 SVGs can be styled using CSS:
-- Icons are already set with `width="1em" height="1em"`, allowing you to change the size via `font-size`.
+
+- Icons are already set with `width="1em" height="1em"` allowing you to change the size via `font-size`.
 - Icons are already set with `fill=currentColor` allowing you to change the color via `color`.
 
 ## License

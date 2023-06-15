@@ -10,7 +10,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "generate": "node ./scripts/generate.js",
     "build": "rimraf dist && rollup --config rollup.config.js",
-    "postbuild": "cp src/index.d.ts dist/index.d.ts"
+    "postbuild": "cp src/index.d.ts dist/index.d.ts",
+    "prepublishOnly": "agadoo"
   },
   "files": [
     "dist"
@@ -25,7 +26,7 @@
   ],
   "author": {
     "name": "Huong Nguyen",
-    "email": "huongdevvn@gmail.com"
+    "email": "huong.dev.vn@gmail.com"
   },
   "license": "MIT",
   "bugs": {
@@ -42,6 +43,7 @@
     "@rollup/plugin-commonjs": "^22.0.0",
     "@rollup/plugin-node-resolve": "^13.3.0",
     "@types/react": "^18.0.9",
+    "agadoo": "^3.0.0",
     "husky": "^7.0.4",
     "prettier": "^2.0.2",
     "rimraf": "^3.0.2",
