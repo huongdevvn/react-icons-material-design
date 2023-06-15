@@ -79,6 +79,36 @@ SVGs can be styled using CSS:
 - Icons are already set with `width="1em" height="1em"` allowing you to change the size via `font-size`.
 - Icons are already set with `fill=currentColor` allowing you to change the color via `color`.
 
+1. CSS
+```
+import React from 'react';
+import { icLocationCityFilled } from 'react-icons-material-design';
+
+export default function Example() {
+  return (
+    <div>
+      <icLocationCityFilled style={{ fontSize: '2em', color: 'green' }} />
+    </div>
+  );
+}
+```
+
+
+2. TailwindCSS
+
+```
+import React from 'react';
+import { icLocationCityFilled } from 'react-icons-material-design';
+
+export default function Example() {
+  return (
+    <div>
+      <icLocationCityFilled className="text-3xl text-green-700" />
+    </div>
+  );
+}
+```
+
 ## License
 
 This project is licensed under the MIT License.
