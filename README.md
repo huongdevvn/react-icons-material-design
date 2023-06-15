@@ -9,7 +9,7 @@ A library of React components for Material Design Icons created by Google. This 
 
 - Zero dependencies.
 - TypeScript friendly.
-- 10,000+ icons with 4 variants: Filled, Outlined, Round, Sharp, TwoTone. You can explore and choose your icons at [Material Design Icons](https://marella.me/material-design-icons/demo/svg).
+- 3000+ icons with variants: Filled, Outlined, Round, Sharp, TwoTone. You can explore and choose your icons at [Material Design Icons](https://marella.me/material-design-icons/demo/svg).
 - SVGs optimized with SVGO.
 - Easy to import using named exports.
 - Tree-shakeable verified by [agadoo](https://github.com/Rich-Harris/agadoo).
