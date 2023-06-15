@@ -4,8 +4,8 @@ const icWomanTwoTone = (props) => (
     xmlns='http://www.w3.org/2000/svg'
     width='1em'
     height='1em'
-    fill='currentColor'
     viewBox='0 0 24 24'
+    fill='currentColor'
     {...props}
   >
     <path d='M13.94 8.31C13.62 7.52 12.85 7 12 7s-1.62.52-1.94 1.31L7 16h3v6h4v-6h3l-3.06-7.69z' />

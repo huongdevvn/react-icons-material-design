@@ -4,8 +4,8 @@ const icVolumeUpTwoTone = (props) => (
     xmlns='http://www.w3.org/2000/svg'
     width='1em'
     height='1em'
-    fill='currentColor'
     viewBox='0 0 24 24'
+    fill='currentColor'
     {...props}
   >
     <path d='M5 13h2.83L10 15.17V8.83L7.83 11H5z' opacity={0.3} />

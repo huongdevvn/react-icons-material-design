@@ -4,8 +4,8 @@ const icQueueTwoTone = (props) => (
     xmlns='http://www.w3.org/2000/svg'
     width='1em'
     height='1em'
-    fill='currentColor'
     viewBox='0 0 24 24'
+    fill='currentColor'
     {...props}
   >
     <path d='M8 16h12V4H8v12zm1-7h4V5h2v4h4v2h-4v4h-2v-4H9V9z' opacity={0.3} />

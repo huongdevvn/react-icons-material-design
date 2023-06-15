@@ -4,8 +4,8 @@ const icFlipCameraIosOutlined = (props) => (
     xmlns='http://www.w3.org/2000/svg'
     width='1em'
     height='1em'
-    fill='currentColor'
     viewBox='0 0 24 24'
+    fill='currentColor'
     {...props}
   >
     <path d='M20 5h-3.17L15 3H9L7.17 5H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 14H4V7h4.05l.59-.65L9.88 5h4.24l1.24 1.35.59.65H20v12z' />

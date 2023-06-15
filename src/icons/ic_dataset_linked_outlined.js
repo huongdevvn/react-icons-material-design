@@ -4,8 +4,8 @@ const icDatasetLinkedOutlined = (props) => (
     xmlns='http://www.w3.org/2000/svg'
     width='1em'
     height='1em'
-    fill='currentColor'
     viewBox='0 0 24 24'
+    fill='currentColor'
     {...props}
   >
     <path d='M7 17h1.09c.28-1.67 1.24-3.1 2.6-4H7v4z' />

@@ -4,8 +4,8 @@ const icTvOffTwoTone = (props) => (
     xmlns='http://www.w3.org/2000/svg'
     width='1em'
     height='1em'
-    fill='currentColor'
     viewBox='0 0 24 24'
+    fill='currentColor'
     {...props}
   >
     <path d='M3 19h13.46l-12-12H3zm7.12-12L21 17.88V7z' opacity={0.3} />

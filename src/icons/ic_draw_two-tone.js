@@ -4,8 +4,8 @@ const icDrawTwoTone = (props) => (
     xmlns='http://www.w3.org/2000/svg'
     width='1em'
     height='1em'
-    fill='currentColor'
     viewBox='0 0 24 24'
+    fill='currentColor'
     {...props}
   >
     <path d='M14.61 11.81 7.41 19H6v-1.41l7.19-7.2z' opacity={0.3} />

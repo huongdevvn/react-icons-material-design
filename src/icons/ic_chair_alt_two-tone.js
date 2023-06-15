@@ -4,8 +4,8 @@ const icChairAltTwoTone = (props) => (
     xmlns='http://www.w3.org/2000/svg'
     width='1em'
     height='1em'
-    fill='currentColor'
     viewBox='0 0 24 24'
+    fill='currentColor'
     {...props}
   >
     <path d='M7 14h10v2H7zm0-9h10v3H7z' opacity={0.3} />

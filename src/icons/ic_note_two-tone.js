@@ -4,8 +4,8 @@ const icNoteTwoTone = (props) => (
     xmlns='http://www.w3.org/2000/svg'
     width='1em'
     height='1em'
-    fill='currentColor'
     viewBox='0 0 24 24'
+    fill='currentColor'
     {...props}
   >
     <path d='M15 6H4v12.01h16V11h-5z' opacity={0.3} />

@@ -4,8 +4,8 @@ const icSensorWindowTwoTone = (props) => (
     xmlns='http://www.w3.org/2000/svg'
     width='1em'
     height='1em'
-    fill='currentColor'
     viewBox='0 0 24 24'
+    fill='currentColor'
     {...props}
   >
     <path d='M18 4v7h-4v-1h-4v1H6V4h12zM6 20v-7h12v7H6z' opacity={0.3} />

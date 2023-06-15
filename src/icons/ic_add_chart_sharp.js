@@ -4,8 +4,8 @@ const icAddChartSharp = (props) => (
     xmlns='http://www.w3.org/2000/svg'
     width='1em'
     height='1em'
-    fill='currentColor'
     viewBox='0 0 24 24'
+    fill='currentColor'
     {...props}
   >
     <path d='M19 19H5V5h9V3H3v18h18V10h-2z' />

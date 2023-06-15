@@ -4,8 +4,8 @@ const icWifiCalling3Round = (props) => (
     xmlns='http://www.w3.org/2000/svg'
     width='1em'
     height='1em'
-    fill='currentColor'
     viewBox='0 0 24 24'
+    fill='currentColor'
     {...props}
   >
     <path d='M21.54 4.8A7.902 7.902 0 0 0 16.49 3c-1.92 0-3.67.67-5.05 1.8-.34.28-.36.79-.05 1.1l.01.01c.27.27.7.29 1 .05 1.12-.91 2.54-1.45 4.09-1.45s2.97.55 4.09 1.45c.3.24.73.23 1-.05l.01-.01c.31-.31.29-.83-.05-1.1z' />

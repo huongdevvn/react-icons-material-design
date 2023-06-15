@@ -4,8 +4,8 @@ const icCopyAllTwoTone = (props) => (
     xmlns='http://www.w3.org/2000/svg'
     width='1em'
     height='1em'
-    fill='currentColor'
     viewBox='0 0 24 24'
+    fill='currentColor'
     {...props}
   >
     <path d='M9 4h9v12H9z' opacity={0.3} />

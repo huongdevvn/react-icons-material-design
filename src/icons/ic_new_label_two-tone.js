@@ -4,8 +4,8 @@ const icNewLabelTwoTone = (props) => (
     xmlns='http://www.w3.org/2000/svg'
     width='1em'
     height='1em'
-    fill='currentColor'
     viewBox='0 0 24 24'
+    fill='currentColor'
     {...props}
   >
     <path d='M12 17v-4H9v-3H5V7h10l3.55 5L15 17z' opacity={0.3} />

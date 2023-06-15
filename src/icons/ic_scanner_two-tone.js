@@ -4,8 +4,8 @@ const icScannerTwoTone = (props) => (
     xmlns='http://www.w3.org/2000/svg'
     width='1em'
     height='1em'
-    fill='currentColor'
     viewBox='0 0 24 24'
+    fill='currentColor'
     {...props}
   >
     <path d='M5 14v4h14v-4H5zm3 3H6v-2h2v2zm10 0h-8v-2h8v2z' opacity={0.3} />

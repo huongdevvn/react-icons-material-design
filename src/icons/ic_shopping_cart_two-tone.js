@@ -4,8 +4,8 @@ const icShoppingCartTwoTone = (props) => (
     xmlns='http://www.w3.org/2000/svg'
     width='1em'
     height='1em'
-    fill='currentColor'
     viewBox='0 0 24 24'
+    fill='currentColor'
     {...props}
   >
     <path d='m15.55 11 2.76-5H6.16l2.37 5z' opacity={0.3} />

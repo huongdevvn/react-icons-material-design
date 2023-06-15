@@ -4,8 +4,8 @@ const icEmojiSymbolsTwoTone = (props) => (
     xmlns='http://www.w3.org/2000/svg'
     width='1em'
     height='1em'
-    fill='currentColor'
     viewBox='0 0 24 24'
+    fill='currentColor'
     {...props}
   >
     <path d='M3 2h8v2H3zm3 9h2V7h3V5H3v2h3zm6.404 9.182 7.778-7.778 1.414 1.414-7.778 7.778z' />

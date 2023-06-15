@@ -4,8 +4,8 @@ const icPersonRemoveTwoTone = (props) => (
     xmlns='http://www.w3.org/2000/svg'
     width='1em'
     height='1em'
-    fill='currentColor'
     viewBox='0 0 24 24'
+    fill='currentColor'
     {...props}
   >
     <path d='M10 16c2.69 0 5.77 1.28 6 2H4c.2-.71 3.3-2 6-2z' opacity={0.3} />

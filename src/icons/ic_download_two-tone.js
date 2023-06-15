@@ -4,8 +4,8 @@ const icDownloadTwoTone = (props) => (
     xmlns='http://www.w3.org/2000/svg'
     width='1em'
     height='1em'
-    fill='currentColor'
     viewBox='0 0 24 24'
+    fill='currentColor'
     {...props}
   >
     <path d='M13 9V5h-2v6H9.83L12 13.17 14.17 11H13z' opacity={0.3} />

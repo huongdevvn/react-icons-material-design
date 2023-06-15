@@ -4,8 +4,8 @@ const icBroadcastOnPersonalRound = (props) => (
     xmlns='http://www.w3.org/2000/svg'
     width='1em'
     height='1em'
-    fill='currentColor'
     viewBox='0 0 24 24'
+    fill='currentColor'
     {...props}
   >
     <path d='M17 8c.7 0 1.38.1 2.02.27L12 3 4 9v12h6.76A7.998 7.998 0 0 1 17 8zm0 6.75c-.69 0-1.25.56-1.25 1.25 0 .4.2.75.5.97V22h1.5v-5.03c.3-.23.5-.57.5-.97 0-.69-.56-1.25-1.25-1.25z' />

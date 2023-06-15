@@ -4,8 +4,8 @@ const icBedroomParentSharp = (props) => (
     xmlns='http://www.w3.org/2000/svg'
     width='1em'
     height='1em'
-    fill='currentColor'
     viewBox='0 0 24 24'
+    fill='currentColor'
     {...props}
   >
     <path d='M6.5 12h11v2h-11zm.75-3.5h4v2h-4zm5.5 0h4v2h-4z' />

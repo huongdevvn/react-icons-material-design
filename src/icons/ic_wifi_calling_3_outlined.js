@@ -4,8 +4,8 @@ const icWifiCalling3Outlined = (props) => (
     xmlns='http://www.w3.org/2000/svg'
     width='1em'
     height='1em'
-    fill='currentColor'
     viewBox='0 0 24 24'
+    fill='currentColor'
     {...props}
   >
     <path d='M16.49 4.5c1.79 0 3.42.73 4.59 1.91l1.06-1.06A7.94 7.94 0 0 0 16.49 3c-2.21 0-4.21.9-5.66 2.34l1.06 1.06a6.545 6.545 0 0 1 4.6-1.9z' />

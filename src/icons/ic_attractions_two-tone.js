@@ -4,8 +4,8 @@ const icAttractionsTwoTone = (props) => (
     xmlns='http://www.w3.org/2000/svg'
     width='1em'
     height='1em'
-    fill='currentColor'
     viewBox='0 0 24 24'
+    fill='currentColor'
     {...props}
   >
     <circle cx={11.98} cy={12.02} r={1.5} opacity={0.3} />

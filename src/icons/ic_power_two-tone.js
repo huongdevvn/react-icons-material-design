@@ -4,8 +4,8 @@ const icPowerTwoTone = (props) => (
     xmlns='http://www.w3.org/2000/svg'
     width='1em'
     height='1em'
-    fill='currentColor'
     viewBox='0 0 24 24'
+    fill='currentColor'
     {...props}
   >
     <path d='m8 13.65 3.5 3.52V19h1v-1.83l3.5-3.51V9H8z' opacity={0.3} />

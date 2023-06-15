@@ -4,8 +4,8 @@ const icThumbUpOffAltTwoTone = (props) => (
     xmlns='http://www.w3.org/2000/svg'
     width='1em'
     height='1em'
-    fill='currentColor'
     viewBox='0 0 24 24'
+    fill='currentColor'
     {...props}
   >
     <path d='M13.34 4.66 9 9v10h9l3-7v-2h-8.77z' opacity={0.3} />

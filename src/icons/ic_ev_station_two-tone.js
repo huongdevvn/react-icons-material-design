@@ -4,8 +4,8 @@ const icEvStationTwoTone = (props) => (
     xmlns='http://www.w3.org/2000/svg'
     width='1em'
     height='1em'
-    fill='currentColor'
     viewBox='0 0 24 24'
+    fill='currentColor'
     {...props}
   >
     <path d='M8 13.5H6V19h6v-8l-4 7zm-2 0L10 6v5h2V5H6z' opacity={0.3} />

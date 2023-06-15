@@ -4,8 +4,8 @@ const icSpaceDashboardTwoTone = (props) => (
     xmlns='http://www.w3.org/2000/svg'
     width='1em'
     height='1em'
-    fill='currentColor'
     viewBox='0 0 24 24'
+    fill='currentColor'
     {...props}
   >
     <path d='M5 19V5h6v14H5zm14 0h-6v-7h6v7zm0-9h-6V5h6v5z' opacity={0.3} />

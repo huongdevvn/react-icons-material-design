@@ -4,8 +4,8 @@ const ic9kPlusOutlined = (props) => (
     xmlns='http://www.w3.org/2000/svg'
     width='1em'
     height='1em'
-    fill='currentColor'
     viewBox='0 0 24 24'
+    fill='currentColor'
     {...props}
   >
     <path d='M10 14v-4c0-.55-.45-1-1-1H7c-.55 0-1 .45-1 1v1.5c0 .55.45 1 1 1h1.5v1H6V15h3c.55 0 1-.45 1-1zm-1.5-2.5h-1V10h1v1.5z' />

@@ -4,8 +4,8 @@ const icSecurityUpdateWarningTwoTone = (props) => (
     xmlns='http://www.w3.org/2000/svg'
     width='1em'
     height='1em'
-    fill='currentColor'
     viewBox='0 0 24 24'
+    fill='currentColor'
     {...props}
   >
     <path d='M11 7h2v6h-2V7zm0 8h2v2h-2v-2z' opacity={0.3} />

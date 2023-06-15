@@ -4,8 +4,8 @@ const ic18UpRatingOutlined = (props) => (
     xmlns='http://www.w3.org/2000/svg'
     width='1em'
     height='1em'
-    fill='currentColor'
     viewBox='0 0 24 24'
+    fill='currentColor'
     {...props}
   >
     <path d='M8.5 15H10V9H7v1.5h1.5z' />

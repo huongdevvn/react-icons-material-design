@@ -4,8 +4,8 @@ const icMarkAsUnreadSharp = (props) => (
     xmlns='http://www.w3.org/2000/svg'
     width='1em'
     height='1em'
-    fill='currentColor'
     viewBox='0 0 24 24'
+    fill='currentColor'
     {...props}
   >
     <path d='M16.23 7h4.12L10.5 2 2 6.21V17h2V7.4L10.5 4z' />

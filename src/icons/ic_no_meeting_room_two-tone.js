@@ -4,8 +4,8 @@ const icNoMeetingRoomTwoTone = (props) => (
     xmlns='http://www.w3.org/2000/svg'
     width='1em'
     height='1em'
-    fill='currentColor'
     viewBox='0 0 24 24'
+    fill='currentColor'
     {...props}
   >
     <path d='M12 5H8.12L12 8.88V6zM7 19h5v-4.46l-5-5z' opacity={0.3} />

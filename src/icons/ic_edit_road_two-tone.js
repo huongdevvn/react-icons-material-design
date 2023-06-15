@@ -4,8 +4,8 @@ const icEditRoadTwoTone = (props) => (
     xmlns='http://www.w3.org/2000/svg'
     width='1em'
     height='1em'
-    fill='currentColor'
     viewBox='0 0 24 24'
+    fill='currentColor'
     {...props}
   >
     <path d='M15.55 17.42v1.03h1.03L20.03 15 19 13.97z' opacity={0.3} />

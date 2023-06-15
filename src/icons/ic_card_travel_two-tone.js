@@ -4,8 +4,8 @@ const icCardTravelTwoTone = (props) => (
     xmlns='http://www.w3.org/2000/svg'
     width='1em'
     height='1em'
-    fill='currentColor'
     viewBox='0 0 24 24'
+    fill='currentColor'
     {...props}
   >
     <path d='M4 17h16v2H4zm13-7h-2V8H9v2H7V8H4v6h16V8h-3z' opacity={0.3} />

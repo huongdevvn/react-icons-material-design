@@ -4,8 +4,8 @@ const icLooksOneTwoTone = (props) => (
     xmlns='http://www.w3.org/2000/svg'
     width='1em'
     height='1em'
-    fill='currentColor'
     viewBox='0 0 24 24'
+    fill='currentColor'
     {...props}
   >
     <path d='M19 5H5v14h14V5zm-5 12h-2V9h-2V7h4v10z' opacity={0.3} />

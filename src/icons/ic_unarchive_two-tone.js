@@ -4,8 +4,8 @@ const icUnarchiveTwoTone = (props) => (
     xmlns='http://www.w3.org/2000/svg'
     width='1em'
     height='1em'
-    fill='currentColor'
     viewBox='0 0 24 24'
+    fill='currentColor'
     {...props}
   >
     <path d='M5 19h14V8H5v11zm7-9 4 4h-2.55v3h-2.91v-3H8l4-4z' opacity={0.3} />

@@ -4,8 +4,8 @@ const icHexagonTwoTone = (props) => (
     xmlns='http://www.w3.org/2000/svg'
     width='1em'
     height='1em'
-    fill='currentColor'
     viewBox='0 0 24 24'
+    fill='currentColor'
     {...props}
   >
     <path d='M16.05 19h-8.1l-4.04-7 4.04-7h8.1l4.04 7z' opacity={0.3} />

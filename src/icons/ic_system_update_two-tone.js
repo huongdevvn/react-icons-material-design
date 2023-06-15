@@ -4,8 +4,8 @@ const icSystemUpdateTwoTone = (props) => (
     xmlns='http://www.w3.org/2000/svg'
     width='1em'
     height='1em'
-    fill='currentColor'
     viewBox='0 0 24 24'
+    fill='currentColor'
     {...props}
   >
     <path d='M7 19h10V5H7v14zm4-6V8h2v5h3l-4 4-4-4h3z' opacity={0.3} />

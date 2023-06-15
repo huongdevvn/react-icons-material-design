@@ -4,8 +4,8 @@ const icSubscriptionsTwoTone = (props) => (
     xmlns='http://www.w3.org/2000/svg'
     width='1em'
     height='1em'
-    fill='currentColor'
     viewBox='0 0 24 24'
+    fill='currentColor'
     {...props}
   >
     <path d='M4 20h16v-8H4v8zm6-7.27L16 16l-6 3.26v-6.53z' opacity={0.3} />

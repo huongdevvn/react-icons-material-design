@@ -4,8 +4,8 @@ const icIronTwoTone = (props) => (
     xmlns='http://www.w3.org/2000/svg'
     width='1em'
     height='1em'
-    fill='currentColor'
     viewBox='0 0 24 24'
+    fill='currentColor'
     {...props}
   >
     <path d='M15 16H4v-1c0-1.1.9-2 2-2h9v3z' opacity={0.3} />

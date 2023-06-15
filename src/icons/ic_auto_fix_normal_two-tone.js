@@ -4,8 +4,8 @@ const icAutoFixNormalTwoTone = (props) => (
     xmlns='http://www.w3.org/2000/svg'
     width='1em'
     height='1em'
-    fill='currentColor'
     viewBox='0 0 24 24'
+    fill='currentColor'
     {...props}
   >
     <path d='m4.415 18.167 7.17-7.17 1.414 1.414-7.17 7.17z' opacity={0.3} />

@@ -4,8 +4,8 @@ const icCottageTwoTone = (props) => (
     xmlns='http://www.w3.org/2000/svg'
     width='1em'
     height='1em'
-    fill='currentColor'
     viewBox='0 0 24 24'
+    fill='currentColor'
     {...props}
   >
     <path d='M18 19h-5v-4h-2v4H6v-8.9l6-4.58 6 4.58z' opacity={0.3} />

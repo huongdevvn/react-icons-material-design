@@ -4,8 +4,8 @@ const icForestFilled = (props) => (
     xmlns='http://www.w3.org/2000/svg'
     width='1em'
     height='1em'
-    fill='currentColor'
     viewBox='0 0 24 24'
+    fill='currentColor'
     {...props}
   >
     <path d='M16 12 9 2 2 12h1.86L0 18h7v4h4v-4h7l-3.86-6z' />

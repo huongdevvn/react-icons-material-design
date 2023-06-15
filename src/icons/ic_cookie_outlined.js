@@ -4,8 +4,8 @@ const icCookieOutlined = (props) => (
     xmlns='http://www.w3.org/2000/svg'
     width='1em'
     height='1em'
-    fill='currentColor'
     viewBox='0 0 24 24'
+    fill='currentColor'
     {...props}
   >
     <circle cx={10.5} cy={8.5} r={1.5} />

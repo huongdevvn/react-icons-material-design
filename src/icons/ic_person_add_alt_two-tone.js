@@ -4,8 +4,8 @@ const icPersonAddAltTwoTone = (props) => (
     xmlns='http://www.w3.org/2000/svg'
     width='1em'
     height='1em'
-    fill='currentColor'
     viewBox='0 0 24 24'
+    fill='currentColor'
     {...props}
   >
     <circle cx={9} cy={8} r={2} opacity={0.3} />

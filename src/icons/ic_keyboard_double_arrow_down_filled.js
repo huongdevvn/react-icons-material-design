@@ -4,8 +4,8 @@ const icKeyboardDoubleArrowDownFilled = (props) => (
     xmlns='http://www.w3.org/2000/svg'
     width='1em'
     height='1em'
-    fill='currentColor'
     viewBox='0 0 24 24'
+    fill='currentColor'
     {...props}
   >
     <path d='M18 6.41 16.59 5 12 9.58 7.41 5 6 6.41l6 6z' />

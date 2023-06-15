@@ -4,8 +4,8 @@ const icCompareTwoTone = (props) => (
     xmlns='http://www.w3.org/2000/svg'
     width='1em'
     height='1em'
-    fill='currentColor'
     viewBox='0 0 24 24'
+    fill='currentColor'
     {...props}
   >
     <path d='M19 5h-5v7l5 6zm-9 13v-6l-5 6z' opacity={0.3} />

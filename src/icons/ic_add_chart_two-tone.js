@@ -4,8 +4,8 @@ const icAddChartTwoTone = (props) => (
     xmlns='http://www.w3.org/2000/svg'
     width='1em'
     height='1em'
-    fill='currentColor'
     viewBox='0 0 24 24'
+    fill='currentColor'
     {...props}
   >
     <path d='M11 7h2v10h-2zm4 6h2v4h-2z' />

@@ -4,8 +4,8 @@ const icAccountBalanceTwoTone = (props) => (
     xmlns='http://www.w3.org/2000/svg'
     width='1em'
     height='1em'
-    fill='currentColor'
     viewBox='0 0 24 24'
+    fill='currentColor'
     {...props}
   >
     <path d='m6.29 6 5.21-2.74L16.71 6z' opacity={0.3} />

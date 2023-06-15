@@ -4,8 +4,8 @@ const icPentagonTwoTone = (props) => (
     xmlns='http://www.w3.org/2000/svg'
     width='1em'
     height='1em'
-    fill='currentColor'
     viewBox='0 0 24 24'
+    fill='currentColor'
     {...props}
   >
     <path d='M19.63 9.78 16.56 19H7.44L4.37 9.78 12 4.44z' opacity={0.3} />

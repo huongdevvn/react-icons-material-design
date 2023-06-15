@@ -4,8 +4,8 @@ const icLocalGroceryStoreTwoTone = (props) => (
     xmlns='http://www.w3.org/2000/svg'
     width='1em'
     height='1em'
-    fill='currentColor'
     viewBox='0 0 24 24'
+    fill='currentColor'
     {...props}
   >
     <path d='M8.53 11h7.02l2.76-5H6.16z' opacity={0.3} />

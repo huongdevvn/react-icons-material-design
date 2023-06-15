@@ -4,8 +4,8 @@ const icLivingSharp = (props) => (
     xmlns='http://www.w3.org/2000/svg'
     width='1em'
     height='1em'
-    fill='currentColor'
     viewBox='0 0 24 24'
+    fill='currentColor'
     {...props}
   >
     <path d='M15.5 12v2.5h-7V12h-2v4.5h11V12z' />

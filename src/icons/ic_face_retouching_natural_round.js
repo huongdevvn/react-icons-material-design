@@ -4,8 +4,8 @@ const icFaceRetouchingNaturalRound = (props) => (
     xmlns='http://www.w3.org/2000/svg'
     width='1em'
     height='1em'
-    fill='currentColor'
     viewBox='0 0 24 24'
+    fill='currentColor'
     {...props}
   >
     <path d='M22.01 4.05 20.6 3.4l-.65-1.41a.5.5 0 0 0-.91 0L18.4 3.4l-1.41.65a.5.5 0 0 0 0 .91l1.41.64.65 1.41a.5.5 0 0 0 .91 0l.64-1.41 1.41-.65c.39-.17.39-.73 0-.9z' />

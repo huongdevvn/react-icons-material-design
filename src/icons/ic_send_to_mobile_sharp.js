@@ -4,8 +4,8 @@ const icSendToMobileSharp = (props) => (
     xmlns='http://www.w3.org/2000/svg'
     width='1em'
     height='1em'
-    fill='currentColor'
     viewBox='0 0 24 24'
+    fill='currentColor'
     {...props}
   >
     <path d='M17 18H7V6h10v1h2V1H5v22h14v-6h-2z' />

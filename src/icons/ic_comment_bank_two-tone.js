@@ -4,8 +4,8 @@ const icCommentBankTwoTone = (props) => (
     xmlns='http://www.w3.org/2000/svg'
     width='1em'
     height='1em'
-    fill='currentColor'
     viewBox='0 0 24 24'
+    fill='currentColor'
     {...props}
   >
     <path d='m4 18 2-2h14V4H4v14zm9-12h5v8l-2.5-1.5L13 14V6z' opacity={0.3} />

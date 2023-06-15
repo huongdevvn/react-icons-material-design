@@ -4,8 +4,8 @@ const icBrowseGalleryFilled = (props) => (
     xmlns='http://www.w3.org/2000/svg'
     width='1em'
     height='1em'
-    fill='currentColor'
     viewBox='0 0 24 24'
+    fill='currentColor'
     {...props}
   >
     <path d='M9 3a9 9 0 1 0 .001 18.001A9 9 0 0 0 9 3zm2.79 13.21L8 12.41V7h2v4.59l3.21 3.21-1.42 1.41z' />

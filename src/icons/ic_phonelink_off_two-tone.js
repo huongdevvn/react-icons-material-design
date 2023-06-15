@@ -4,8 +4,8 @@ const icPhonelinkOffTwoTone = (props) => (
     xmlns='http://www.w3.org/2000/svg'
     width='1em'
     height='1em'
-    fill='currentColor'
     viewBox='0 0 24 24'
+    fill='currentColor'
     {...props}
   >
     <path d='M22 17v-7h-4v4.61L20.39 17z' opacity={0.3} />

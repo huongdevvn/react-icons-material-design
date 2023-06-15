@@ -4,8 +4,8 @@ const icVideocamOffTwoTone = (props) => (
     xmlns='http://www.w3.org/2000/svg'
     width='1em'
     height='1em'
-    fill='currentColor'
     viewBox='0 0 24 24'
+    fill='currentColor'
     {...props}
   >
     <path d='M12.39 8 15 10.61V8zM5 8v8h9.73l-8-8z' opacity={0.3} />

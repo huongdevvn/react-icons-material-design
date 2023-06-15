@@ -4,8 +4,8 @@ const icCollectionsBookmarkTwoTone = (props) => (
     xmlns='http://www.w3.org/2000/svg'
     width='1em'
     height='1em'
-    fill='currentColor'
     viewBox='0 0 24 24'
+    fill='currentColor'
     {...props}
   >
     <path d='M20 4h-1v9l-3-2.25L13 13V4H8v12h12z' opacity={0.3} />

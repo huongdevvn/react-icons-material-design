@@ -4,8 +4,8 @@ const icTungstenTwoTone = (props) => (
     xmlns='http://www.w3.org/2000/svg'
     width='1em'
     height='1em'
-    fill='currentColor'
     viewBox='0 0 24 24'
+    fill='currentColor'
     {...props}
   >
     <path d='M13 7.1V5h-2v2.1c.32-.06.66-.1 1-.1s.68.04 1 .1z' opacity={0.3} />

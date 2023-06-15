@@ -4,8 +4,8 @@ const icHotelTwoTone = (props) => (
     xmlns='http://www.w3.org/2000/svg'
     width='1em'
     height='1em'
-    fill='currentColor'
     viewBox='0 0 24 24'
+    fill='currentColor'
     {...props}
   >
     <path d='M19 9h-6v6h8v-4c0-1.1-.9-2-2-2z' opacity={0.3} />

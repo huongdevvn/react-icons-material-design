@@ -4,8 +4,8 @@ const icVolumeMuteTwoTone = (props) => (
     xmlns='http://www.w3.org/2000/svg'
     width='1em'
     height='1em'
-    fill='currentColor'
     viewBox='0 0 24 24'
+    fill='currentColor'
     {...props}
   >
     <path d='M9 13h2.83L14 15.17V8.83L11.83 11H9z' opacity={0.3} />

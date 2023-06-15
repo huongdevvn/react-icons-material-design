@@ -4,8 +4,8 @@ const icBusinessCenterTwoTone = (props) => (
     xmlns='http://www.w3.org/2000/svg'
     width='1em'
     height='1em'
-    fill='currentColor'
     viewBox='0 0 24 24'
+    fill='currentColor'
     {...props}
   >
     <path d='M15 17H9v-1H5v3h14v-3h-4zM4 14h5v-3h6v3h5V9H4z' opacity={0.3} />

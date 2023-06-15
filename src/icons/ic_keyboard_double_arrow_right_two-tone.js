@@ -4,8 +4,8 @@ const icKeyboardDoubleArrowRightTwoTone = (props) => (
     xmlns='http://www.w3.org/2000/svg'
     width='1em'
     height='1em'
-    fill='currentColor'
     viewBox='0 0 24 24'
+    fill='currentColor'
     {...props}
   >
     <path d='M6.41 6 5 7.41 9.58 12 5 16.59 6.41 18l6-6z' />

@@ -4,8 +4,8 @@ const icKeyboardDoubleArrowLeftOutlined = (props) => (
     xmlns='http://www.w3.org/2000/svg'
     width='1em'
     height='1em'
-    fill='currentColor'
     viewBox='0 0 24 24'
+    fill='currentColor'
     {...props}
   >
     <path d='M17.59 18 19 16.59 14.42 12 19 7.41 17.59 6l-6 6z' />

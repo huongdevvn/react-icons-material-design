@@ -4,8 +4,8 @@ const icAssignmentLateTwoTone = (props) => (
     xmlns='http://www.w3.org/2000/svg'
     width='1em'
     height='1em'
-    fill='currentColor'
     viewBox='0 0 24 24'
+    fill='currentColor'
     {...props}
   >
     <path d='M5 5v14h14V5H5zm8 12h-2v-2h2v2zm0-4h-2V7h2v6z' opacity={0.3} />

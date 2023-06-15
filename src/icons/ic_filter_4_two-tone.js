@@ -4,8 +4,8 @@ const icFilter4TwoTone = (props) => (
     xmlns='http://www.w3.org/2000/svg'
     width='1em'
     height='1em'
-    fill='currentColor'
     viewBox='0 0 24 24'
+    fill='currentColor'
     {...props}
   >
     <path d='M21 3H7v14h14V3zm-4 12h-2v-4h-4V5h2v4h2V5h2v10z' opacity={0.3} />

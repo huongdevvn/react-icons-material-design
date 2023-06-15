@@ -4,8 +4,8 @@ const icHdrPlusFilled = (props) => (
     xmlns='http://www.w3.org/2000/svg'
     width='1em'
     height='1em'
-    fill='currentColor'
     viewBox='0 0 24 24'
+    fill='currentColor'
     {...props}
   >
     <path d='M8.5 14.5h2v1h-2zm6-7H16v3h-1.5z' />

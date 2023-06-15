@@ -4,8 +4,8 @@ const icThumbDownAltTwoTone = (props) => (
     xmlns='http://www.w3.org/2000/svg'
     width='1em'
     height='1em'
-    fill='currentColor'
     viewBox='0 0 24 24'
+    fill='currentColor'
     {...props}
   >
     <path d='M3 12v2h8.77l-1.11 5.34L15 15V5H6z' opacity={0.3} />

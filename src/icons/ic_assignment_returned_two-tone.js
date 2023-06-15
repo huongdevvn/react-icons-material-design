@@ -4,8 +4,8 @@ const icAssignmentReturnedTwoTone = (props) => (
     xmlns='http://www.w3.org/2000/svg'
     width='1em'
     height='1em'
-    fill='currentColor'
     viewBox='0 0 24 24'
+    fill='currentColor'
     {...props}
   >
     <path d='M5 19h14V5H5v14zm5-7V8h4v4h3l-5 5-5-5h3z' opacity={0.3} />

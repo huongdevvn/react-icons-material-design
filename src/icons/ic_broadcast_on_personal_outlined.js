@@ -4,8 +4,8 @@ const icBroadcastOnPersonalOutlined = (props) => (
     xmlns='http://www.w3.org/2000/svg'
     width='1em'
     height='1em'
-    fill='currentColor'
     viewBox='0 0 24 24'
+    fill='currentColor'
     {...props}
   >
     <path d='M4 19v-9l6-4.5 4.08 3.06c.81-.32 1.69-.51 2.61-.54L10 3 2 9v12h8.76c-.48-.6-.88-1.27-1.17-2H4zm13-4.25c-.69 0-1.25.56-1.25 1.25 0 .4.2.75.5.97V22h1.5v-5.03c.3-.23.5-.57.5-.97 0-.69-.56-1.25-1.25-1.25z' />

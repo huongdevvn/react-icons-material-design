@@ -4,8 +4,8 @@ const icLanTwoTone = (props) => (
     xmlns='http://www.w3.org/2000/svg'
     width='1em'
     height='1em'
-    fill='currentColor'
     viewBox='0 0 24 24'
+    fill='currentColor'
     {...props}
   >
     <path d='M10 7V4h4v3h-4zM9 17v3H5v-3h4zm10 0v3h-4v-3h4z' opacity={0.3} />

@@ -5,7 +5,7 @@ const { transform } = require('@svgr/core');
 
 const SOURCE_SVG_PATH = path.resolve(
   __dirname,
-  '../svg'
+  '../node_modules/@material-design-icons/svg'
 );
 const DESTINATION_ICONS_PATH = path.resolve(__dirname, '../src/icons');
 const PREFIX_COMPONENT_NAME = 'ic';

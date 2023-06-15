@@ -4,8 +4,8 @@ const icSmartScreenTwoTone = (props) => (
     xmlns='http://www.w3.org/2000/svg'
     width='1em'
     height='1em'
-    fill='currentColor'
     viewBox='0 0 24 24'
+    fill='currentColor'
     {...props}
   >
     <path d='M3 17h1V7H3v10zM20 7v10h1V7h-1z' opacity={0.3} />

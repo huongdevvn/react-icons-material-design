@@ -4,8 +4,8 @@ const icUnfoldLessDoubleFilled = (props) => (
     xmlns='http://www.w3.org/2000/svg'
     width='1em'
     height='1em'
-    fill='currentColor'
     viewBox='0 0 24 24'
+    fill='currentColor'
     {...props}
   >
     <path d='M16.58 1.41 15.16 0l-3.17 3.17L8.82 0 7.41 1.41 11.99 6z' />

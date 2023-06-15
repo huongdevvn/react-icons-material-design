@@ -4,8 +4,8 @@ const icMan4Sharp = (props) => (
     xmlns='http://www.w3.org/2000/svg'
     width='1em'
     height='1em'
-    fill='currentColor'
     viewBox='0 0 24 24'
+    fill='currentColor'
     {...props}
   >
     <path d='M7.96 7 10 22h4l2.04-15z' />

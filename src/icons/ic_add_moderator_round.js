@@ -4,8 +4,8 @@ const icAddModeratorRound = (props) => (
     xmlns='http://www.w3.org/2000/svg'
     width='1em'
     height='1em'
-    fill='currentColor'
     viewBox='0 0 24 24'
+    fill='currentColor'
     {...props}
   >
     <path d='M17 10c1.08 0 2.09.25 3 .68v-4.3a2 2 0 0 0-1.3-1.87l-6-2.25c-.45-.17-.95-.17-1.4 0l-6 2.25C4.52 4.81 4 5.55 4 6.39v4.7c0 5.05 3.41 9.76 8 10.91.03-.01.05-.02.08-.02A6.996 6.996 0 0 1 10 17c0-3.87 3.13-7 7-7z' />
