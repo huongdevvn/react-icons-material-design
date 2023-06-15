@@ -1,16 +1,14 @@
-import React from 'react';
-
-export default function icViewCozyFilled({ ...restProps }) {
-  return (
-    <svg
-      xmlns='http://www.w3.org/2000/svg'
-      width='1em'
-      height='1em'
-      viewBox='0 0 24 24'
-      fill='currentColor'
-      {...restProps}
-    >
-      <path d='M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm-8.75 12.75h-4v-4h4v4zm0-5.5h-4v-4h4v4zm5.5 5.5h-4v-4h4v4zm0-5.5h-4v-4h4v4z' />
-    </svg>
-  );
-}
+import * as React from 'react';
+const icViewCozyFilled = (props) => (
+  <svg
+    xmlns='http://www.w3.org/2000/svg'
+    width='1em'
+    height='1em'
+    fill='currentColor'
+    viewBox='0 0 24 24'
+    {...props}
+  >
+    <path d='M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm-8.75 12.75h-4v-4h4v4zm0-5.5h-4v-4h4v4zm5.5 5.5h-4v-4h4v4zm0-5.5h-4v-4h4v4z' />
+  </svg>
+);
+export default icViewCozyFilled;

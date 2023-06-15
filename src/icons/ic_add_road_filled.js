@@ -1,16 +1,14 @@
-import React from 'react';
-
-export default function icAddRoadFilled({ ...restProps }) {
-  return (
-    <svg
-      xmlns='http://www.w3.org/2000/svg'
-      width='1em'
-      height='1em'
-      viewBox='0 0 24 24'
-      fill='currentColor'
-      {...restProps}
-    >
-      <path d='M20 18v-3h-2v3h-3v2h3v3h2v-3h3v-2zM18 4h2v9h-2zM4 4h2v16H4zM11 4h2v4h-2zM11 10h2v4h-2zM11 16h2v4h-2z' />
-    </svg>
-  );
-}
+import * as React from 'react';
+const icAddRoadFilled = (props) => (
+  <svg
+    xmlns='http://www.w3.org/2000/svg'
+    width='1em'
+    height='1em'
+    fill='currentColor'
+    viewBox='0 0 24 24'
+    {...props}
+  >
+    <path d='M20 18v-3h-2v3h-3v2h3v3h2v-3h3v-2zM18 4h2v9h-2zM4 4h2v16H4zm7 0h2v4h-2zm0 6h2v4h-2zm0 6h2v4h-2z' />
+  </svg>
+);
+export default icAddRoadFilled;

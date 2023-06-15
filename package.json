@@ -1,6 +1,6 @@
 {
   "name": "react-icons-material-design",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Material Design Icons for React",
   "main": "./dist/cjs/index.js",
   "module": "./dist/index.js",
@@ -42,6 +42,10 @@
     "@rollup/plugin-babel": "^5.3.1",
     "@rollup/plugin-commonjs": "^22.0.0",
     "@rollup/plugin-node-resolve": "^13.3.0",
+    "@svgr/core": "^8.0.0",
+    "@svgr/plugin-jsx": "^8.0.1",
+    "@svgr/plugin-prettier": "^8.0.1",
+    "@svgr/plugin-svgo": "^8.0.1",
     "@types/react": "^18.0.9",
     "agadoo": "^3.0.0",
     "husky": "^7.0.4",

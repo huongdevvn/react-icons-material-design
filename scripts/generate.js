@@ -1,6 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const prettier = require('prettier');
+const { transform } = require('@svgr/core');
 
 const SOURCE_SVG_PATH = path.resolve(
   __dirname,
@@ -95,7 +96,6 @@ async function generateNewComponents() {
 
   createFolder(path.resolve(__dirname, '../src/icons'))
 
-
   for (const file of findIcons(SOURCE_SVG_PATH)) {
     const elements = file.split('/');
     const variant = elements[elements.length - 2];
@@ -112,16 +112,21 @@ async function generateNewComponents() {
       `export { default as ${componentName} } from './icons/${PREFIX_COMPONENT_NAME}_${originalName}_${variant}.js';`
     );
 
-    const [, svgContent] = /<svg[^>]*>([\s\S]*?)<\/svg>/.exec(svgFileContents);
+    const jsCode = await transform(
+      svgFileContents,
+      {
+        plugins: ['@svgr/plugin-svgo', '@svgr/plugin-jsx', '@svgr/plugin-prettier'],
+        icon: true,
+        svgProps: {
+          fill: 'currentColor'
+        }
 
-    let source = getComponentTemplate()
-      .replace(/%%COMPONENT_NAME%%/g, componentName)
-      .replace(/%%SVG_CONTENT%%/g, svgContent)
+      },
+      { componentName },
+    );
 
     fs.writeFileSync(
-      path.resolve(DESTINATION_ICONS_PATH, `${PREFIX_COMPONENT_NAME}_${originalName}_${variant}.js`),
-      prettier.format(source, { parser: 'babel', ...prettierOptions })
-    );
+      path.resolve(DESTINATION_ICONS_PATH, `${PREFIX_COMPONENT_NAME}_${originalName}_${variant}.js`), jsCode);
   }
 
   fs.writeFileSync(
@@ -139,22 +144,16 @@ async function createTypesFile() {
 
     const componentName = createComponentName(originalName, variant);
 
-    return `export const ${componentName}: SVGIcon;`;
+    return `export const ${componentName}: React.FunctionComponent<React.SVGProps<SVGSVGElement>>;`;
   });
+
 
   fs.writeFileSync(
     path.resolve(__dirname, '../src/index.d.ts'),
     prettier.format(getTypesTemplate() + exports.join('\n'), {
-      parser: 'babel-ts',
+      parser: 'typescript',
       ...prettierOptions,
     })
-  );
-}
-
-function getComponentTemplate() {
-  return fs.readFileSync(
-    path.resolve(__dirname, './component-template.txt'),
-    'utf8'
   );
 }
 
