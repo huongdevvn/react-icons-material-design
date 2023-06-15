@@ -1,16 +1,14 @@
-import React from 'react';
-
-export default function icWbShadeFilled({ ...restProps }) {
-  return (
-    <svg
-      xmlns='http://www.w3.org/2000/svg'
-      width='1em'
-      height='1em'
-      viewBox='0 0 24 24'
-      fill='currentColor'
-      {...restProps}
-    >
-      <path d='M14 12v2.5l5.5 5.5H22zm0 8h3l-3-3zM8 4l-6 6h2v10h8V10h2L8 4zm1 10H7v-4h2v4z' />
-    </svg>
-  );
-}
+import * as React from 'react';
+const icWbShadeFilled = (props) => (
+  <svg
+    xmlns='http://www.w3.org/2000/svg'
+    width='1em'
+    height='1em'
+    viewBox='0 0 24 24'
+    fill='currentColor'
+    {...props}
+  >
+    <path d='M14 12v2.5l5.5 5.5H22zm0 8h3l-3-3zM8 4l-6 6h2v10h8V10h2L8 4zm1 10H7v-4h2v4z' />
+  </svg>
+);
+export default icWbShadeFilled;

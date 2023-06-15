@@ -1,16 +1,14 @@
-import React from 'react';
-
-export default function icSignalWifi0BarFilled({ ...restProps }) {
-  return (
-    <svg
-      xmlns='http://www.w3.org/2000/svg'
-      width='1em'
-      height='1em'
-      viewBox='0 0 24 24'
-      fill='currentColor'
-      {...restProps}
-    >
-      <path d='M12 6c3.33 0 6.49 1.08 9.08 3.07L12 18.17l-9.08-9.1C5.51 7.08 8.67 6 12 6m0-2C7.31 4 3.07 5.9 0 8.98L12 21 24 8.98A16.88 16.88 0 0 0 12 4z' />
-    </svg>
-  );
-}
+import * as React from 'react';
+const icSignalWifi0BarFilled = (props) => (
+  <svg
+    xmlns='http://www.w3.org/2000/svg'
+    width='1em'
+    height='1em'
+    viewBox='0 0 24 24'
+    fill='currentColor'
+    {...props}
+  >
+    <path d='M12 6c3.33 0 6.49 1.08 9.08 3.07L12 18.17l-9.08-9.1C5.51 7.08 8.67 6 12 6m0-2C7.31 4 3.07 5.9 0 8.98L12 21 24 8.98A16.88 16.88 0 0 0 12 4z' />
+  </svg>
+);
+export default icSignalWifi0BarFilled;

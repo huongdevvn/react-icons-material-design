@@ -1,16 +1,14 @@
-import React from 'react';
-
-export default function icShoppingBasketSharp({ ...restProps }) {
-  return (
-    <svg
-      xmlns='http://www.w3.org/2000/svg'
-      width='1em'
-      height='1em'
-      viewBox='0 0 24 24'
-      fill='currentColor'
-      {...restProps}
-    >
-      <path d='m17.21 9-4.39-6.57a1 1 0 0 0-1.66 0L6.77 9H.69L4 21h16.02l3.29-12h-6.1zm-5.22-4.21L14.8 9H9.18l2.81-4.21zM12 17c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2z' />
-    </svg>
-  );
-}
+import * as React from 'react';
+const icShoppingBasketSharp = (props) => (
+  <svg
+    xmlns='http://www.w3.org/2000/svg'
+    width='1em'
+    height='1em'
+    viewBox='0 0 24 24'
+    fill='currentColor'
+    {...props}
+  >
+    <path d='m17.21 9-4.39-6.57a1 1 0 0 0-1.66 0L6.77 9H.69L4 21h16.02l3.29-12h-6.1zm-5.22-4.21L14.8 9H9.18l2.81-4.21zM12 17c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2z' />
+  </svg>
+);
+export default icShoppingBasketSharp;
