@@ -32,11 +32,11 @@ After installing the package, you can import React Material Icons as React compo
 
 ```jsx
 import {
-  icLocationCityFilled,
-  icLocationCityOutlined,
-  icLocationCityRound,
-  icLocationCitySharp,
-  icLocationCityTwoTone,
+  IconLocationCityFilled,
+  IconLocationCityOutlined,
+  IconLocationCityRound,
+  IconLocationCitySharp,
+  IconLocationCityTwoTone,
 } from 'react-icons-material-design';
 ```
 
@@ -46,12 +46,12 @@ import {
 
 ```jsx
 import React from 'react';
-import { icLocationCityFilled } from 'react-icons-material-design';
+import { IconLocationCityFilled } from 'react-icons-material-design';
 
 export default function Example() {
   return (
     <div>
-      <icLocationCityFilled />
+      <IconLocationCityFilled color='red' size={24} />
     </div>
   );
 }
@@ -61,12 +61,14 @@ export default function Example() {
 
 ```jsx
 import React from 'react';
-import { icLocationCityFilled } from 'react-icons-material-design';
+import { IconLocationCityFilled } from 'react-icons-material-design';
 
 export default function Example() {
   return (
     <div>
-      <YourIconComponent icon={icLocationCityFilled} />
+      <YourIconComponent icon={IconLocationCityFilled} />
+      <YourIconComponent icon={<IconLocationCityFilled />} />
+      <YourIconComponent icon={<IconLocationCityFilled size={24} color='red' />} />
     </div>
   );
 }
@@ -74,36 +76,56 @@ export default function Example() {
 
 ## Styling
 
-SVGs can be styled using CSS:
+#### You can pass additional props to adjust the icon.
 
-- Icons are already set with `width="1em" height="1em"` allowing you to change the size via `font-size`.
-- Icons are already set with `fill=currentColor` allowing you to change the color via `color`.
+| name          | type     | default      |
+| ------------- | -------- | ------------ |
+| `size`        | _Number_,_String_ | '1em'           |
+| `color`       | _String_ | currentColor |
 
-1. CSS
-```
+
+```jsx
 import React from 'react';
-import { icLocationCityFilled } from 'react-icons-material-design';
+import { IconLocationCityFilled } from 'react-icons-material-design';
 
 export default function Example() {
   return (
     <div>
-      <icLocationCityFilled style={{ fontSize: '2em', color: 'green' }} />
+      <IconLocationCityFilled color='red' size={24} />
     </div>
   );
 }
 ```
 
+#### We can also style using CSS:
 
-2. TailwindCSS
+- Icons are already set with `width="1em" height="1em"` allowing you to change the size via `font-size`.
+- Icons are already set with `fill=currentColor` allowing you to change the color via `color`.
 
+CSS
 ```
 import React from 'react';
-import { icLocationCityFilled } from 'react-icons-material-design';
+import { IconLocationCityFilled } from 'react-icons-material-design';
 
 export default function Example() {
   return (
     <div>
-      <icLocationCityFilled className="text-3xl text-green-700" />
+      <IconLocationCityFilled style={{ fontSize: '2em', color: 'green' }} />
+    </div>
+  );
+}
+```
+
+TailwindCSS
+
+```
+import React from 'react';
+import { IconLocationCityFilled } from 'react-icons-material-design';
+
+export default function Example() {
+  return (
+    <div>
+      <IconLocationCityFilled className="text-3xl text-green-700" />
     </div>
   );
 }
