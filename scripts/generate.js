@@ -8,7 +8,7 @@ const SOURCE_SVG_PATH = path.resolve(
   '../node_modules/@material-design-icons/svg'
 );
 const DESTINATION_ICONS_PATH = path.resolve(__dirname, '../src/icons');
-const PREFIX_COMPONENT_NAME = 'ic';
+const PREFIX_COMPONENT_NAME = 'Icon';
 
 function pascalCase(string) {
   // Remove leading and trailing whitespace
@@ -109,24 +109,26 @@ async function generateNewComponents() {
     console.log('Processing to component: ', componentName)
 
     exports.push(
-      `export { default as ${componentName} } from './icons/${PREFIX_COMPONENT_NAME}_${originalName}_${variant}.js';`
+      `export { default as ${componentName} } from './icons/${originalName}_${variant}.js';`
     );
 
     const jsCode = await transform(
       svgFileContents,
       {
         plugins: ['@svgr/plugin-svgo', '@svgr/plugin-jsx', '@svgr/plugin-prettier'],
-        icon: true,
-        svgProps: {
-          fill: 'currentColor'
-        }
-
       },
       { componentName },
     );
 
+    const [, svgContent] = /<svg[^>]*>([\s\S]*?)<\/svg>/.exec(jsCode);
+
+
+    const source = getComponentTemplate()
+      .replace(/%%COMPONENT_NAME%%/g, componentName)
+      .replace(/%%SVG_CONTENT%%/g, svgContent)
+
     fs.writeFileSync(
-      path.resolve(DESTINATION_ICONS_PATH, `${PREFIX_COMPONENT_NAME}_${originalName}_${variant}.js`), jsCode);
+      path.resolve(DESTINATION_ICONS_PATH, `${originalName}_${variant}.js`), source);
   }
 
   fs.writeFileSync(
@@ -144,7 +146,7 @@ async function createTypesFile() {
 
     const componentName = createComponentName(originalName, variant);
 
-    return `export const ${componentName}: React.FunctionComponent<React.SVGProps<SVGSVGElement>>;`;
+    return `export const ${componentName}: MDIcon;`;
   });
 
 
@@ -154,6 +156,13 @@ async function createTypesFile() {
       parser: 'typescript',
       ...prettierOptions,
     })
+  );
+}
+
+function getComponentTemplate() {
+  return fs.readFileSync(
+    path.resolve(__dirname, './component-template.txt'),
+    'utf8'
   );
 }
 
