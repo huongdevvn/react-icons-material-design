@@ -1,2 +1,9 @@
 /// <reference types="react" />
-import * as React from 'react';
+import { FC, SVGAttributes } from 'react';
+
+interface MDIconProps extends SVGAttributes<SVGElement> {  
+  color?: string;
+  size?: string | number;
+}
+
+type MDIcon = FC<MDIconProps>;
