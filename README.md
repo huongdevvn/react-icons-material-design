@@ -103,7 +103,7 @@ export default function Example() {
 - Icons are already set with `fill=currentColor` allowing you to change the color via `color`.
 
 CSS
-```
+```jsx
 import React from 'react';
 import { IconLocationCityFilled } from 'react-icons-material-design';
 
@@ -118,7 +118,7 @@ export default function Example() {
 
 TailwindCSS
 
-```
+```jsx
 import React from 'react';
 import { IconLocationCityFilled } from 'react-icons-material-design';
 
